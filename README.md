@@ -18,19 +18,19 @@ victoire lui est accordée.
 - Scénario d'exception : les équipes ne parviennent pas à se départager.
 
 ## Travail à réaliser
-- [] Simulez le résultat de chaque tir au but, au hasard (pénalty marqué / pénalty
+- [ ] Simulez le résultat de chaque tir au but, au hasard (pénalty marqué / pénalty
 manqué).
-- [] Mettez à jour le score de la séance de tirs au but après chaque tir. Appliquez le
+- [ ] Mettez à jour le score de la séance de tirs au but après chaque tir. Appliquez le
 concept d'état immuable.
-- [] Constituez un historique du déroulé de la séance de tirs au but permettant de
+- [ ] Constituez un historique du déroulé de la séance de tirs au but permettant de
 retracer l'évolution du score.
-- [] Faites en sorte que votre programme se répète tant que la séance de tirs au but n'a
+- [ ] Faites en sorte que votre programme se répète tant que la séance de tirs au but n'a
 pas permis de déterminer un vainqueur. Pour ce faire, programmez une fonction
 récursive.
-- [] Employez l'historique de la séance de tirs au but (obtenu ou généré) afin de tester
+- [ ] Employez l'historique de la séance de tirs au but (obtenu ou généré) afin de tester
 votre programme en rejouant une partie depuis le début ou à partir d'un moment
 choisi.
-- [] Mettez en place une fonction display permettant d'afficher l'historique de la séance
+- [ ] Mettez en place une fonction display permettant d'afficher l'historique de la séance
 de tirs au but dans le terminal une fois la séance terminée, ex :
 ```
 Tir 1 : Score : 1/0 (Équipe A : +1 | Équipe B : 0)
@@ -40,12 +40,12 @@ Tir 4 : Score : 3/3 (Équipe A : +1 | Équipe B : +1)
 Tir 5 : Score : 4/3 (Équipe A : +1 | Équipe B : 0)
 Victoire : Équipe A (Score : 4/3)
 ```
-- [] Implémentez des tests unitaires permettant de valider chaque fonction de votre
+- [ ] Implémentez des tests unitaires permettant de valider chaque fonction de votre
 programme. Une approche Test-Driven Development est recommandée.
-- [] Concevez et implémentez un programme back end avec une approche fonctionnelle
+- [ ] Concevez et implémentez un programme back end avec une approche fonctionnelle
 en respectant les objectifs définis ci-avant et permettant d'accomplir les User Stories
 suivantes.
-- [] L'emploi d'une base de données et d'une interface graphique ne sont ni
+- [ ] L'emploi d'une base de données et d'une interface graphique ne sont ni
 nécessaires, ni demandés.
 
 ## Modalités de réalisation
