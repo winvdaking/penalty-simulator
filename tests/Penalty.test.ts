@@ -75,7 +75,6 @@ describe('seanceTirsAuBut', () => {
         const initialHistory: History = [];
         console.log = jest.fn();
         seanceTirsAuBut(initialScore, initialHistory, 0);
-        // 5 tirs + l'affichage du score final = 6
         expect(console.log).toHaveBeenCalledTimes(6);
     });
 });

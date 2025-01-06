@@ -56,14 +56,11 @@ export const afficherHistorique = (historique: History, score: Score): void => {
         );
     });
 
-    if (score.teamA === score.teamB) {
-        console.log(`Match nul (Score : ${score.teamA}/${score.teamB})`);
-    } else {
-        console.log(
-            `Victoire : ${score.teamA > score.teamB ? "Équipe A" : "Équipe B"
-            } (Score : ${score.teamA}/${score.teamB})`
-        );
-    }
+    console.log(
+        `Victoire : ${score.teamA > score.teamB ? "Équipe A" : "Équipe B"
+        } (Score : ${score.teamA}/${score.teamB})`
+    );
+
 };
 
 /**
@@ -74,7 +71,7 @@ export const seanceTirsAuBut = (
     historique: History,
     tirs: number
 ): void => {
-    if (tirs === 5) {
+    if (tirs >= 5 && Math.abs(score.teamA - score.teamB) > 0) {
         afficherHistorique(historique, score);
         return;
     }
