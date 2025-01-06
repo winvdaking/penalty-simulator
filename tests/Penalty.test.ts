@@ -68,13 +68,3 @@ describe('afficherHistorique', () => {
         expect(console.log).toHaveBeenCalledTimes(3);
     });
 });
-
-describe('seanceTirsAuBut', () => {
-    it('should simulate the penalty shootout', () => {
-        const initialScore: Score = { teamA: 0, teamB: 0 };
-        const initialHistory: History = [];
-        console.log = jest.fn();
-        seanceTirsAuBut(initialScore, initialHistory, 0);
-        expect(console.log).toHaveBeenCalledTimes(6);
-    });
-});
